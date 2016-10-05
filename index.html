@@ -1,0 +1,83 @@
+<html>
+	<head>
+	<style>
+		nav{
+			background-color:purple;
+			width:50%;
+			float:right;
+		}
+		header{
+			background-color:red;
+			width:100%;
+			text-align:center;
+		}
+		aside{
+			background-color:orange;
+			width:30%;
+			float:left;
+			height:600px;
+		}
+		article{
+			background-color:green;
+			width:70%;
+			float:left;
+			height:600px;
+		}
+		footer{
+			background-color:blue;
+			width:100%;
+			text-align:center;
+			position:fixed;
+			bottom:0;
+		}
+			
+	</style>
+	</head>
+	<body>
+		<audio src=".mp3" loop control autoplay></audio>
+		<nav>
+			<input list="tcontent" />
+			<datalist id="tcontent" >
+				<option value="射擊遊戲">
+				<option value="DOTA">
+				<option value="格鬥遊戲">
+				<option value="冒險遊戲">
+			</datalist>
+		</nav>
+		
+		<header>
+			遊戲介紹
+		</header>
+		<aside>
+			<details>
+				<summary>遊戲類別</summary>
+				<p>
+					<details>
+						<summary>射擊遊戲</summary>
+						<p>
+							<a href ="overwatch.html" target="article">overwatch</a>
+						</p>
+						<p>
+							<a href ="CSGO.html" target="article">CSGO</a>
+						</p>
+					</details>
+				</p>
+				<p>
+					<a href ="figure.html" target="article">DOTA</a>
+				</p>
+				<p>
+					<a href ="dialog.html" target="article">格鬥遊戲</a>
+				</p>
+				<p>
+					<a href ="wbr.html" target="article">冒險遊戲</a>
+				</p>
+			</details>
+		</aside>
+		<article>
+			<iframe width="100%" height ="600px" name="article"></iframe>
+		</article>
+		<footer>
+		頁尾
+		</footer>
+	</body>
+</html>
